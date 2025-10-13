@@ -1,0 +1,25 @@
+Práctica de WebSockets con Python: De Junior a Middle
+
+Esta guía te llevará a través de los conceptos teóricos y prácticos de los WebSockets en Python, manteniendo los ejemplos simples y claros.
+Contexto Teórico: ¿Qué son los WebSockets?
+El Problema con HTTP
+
+Imagina que estás chateando en una web. Con el protocolo HTTP tradicional, cada vez que quieres enviar un mensaje, tu navegador envía una petición al servidor (como tocar una puerta). El servidor responde y cierra la conexión (abre la puerta, te da algo y la cierra). Si quieres saber si tienes mensajes nuevos, tienes que volver a tocar la puerta una y otra vez (a esto se le llama polling). Es ineficiente y lento.
+
+Analogía: HTTP es como enviar cartas por correo postal. Envías una, esperas una respuesta, y la conversación es lenta.
+La Solución: WebSockets
+
+Los WebSockets solucionan este problema creando una conexión persistente y bidireccional entre el cliente (tu navegador) y el servidor.
+
+    El "Apretón de Manos" (Handshake): La conexión empieza como una petición HTTP normal, pero el cliente le pide al servidor "actualizar" la conexión a un WebSocket.
+    Canal Abierto: Si el servidor está de acuerdo, la conexión HTTP se transforma en una conexión WebSocket que permanece abierta.
+    Comunicación Bidireccional: Ahora, tanto el cliente como el servidor pueden enviarse mensajes en cualquier momento, sin necesidad de hacer nuevas peticiones.
+
+Analogía: Un WebSocket es como una llamada telefónica. Una vez que ambos contestan, la línea está abierta y pueden hablar libremente en ambas direcciones hasta que uno de los dos cuelga.
+
+Casos de uso comunes:
+
+    Aplicaciones de chat en tiempo real.
+    Notificaciones instantáneas (como en redes sociales).
+    Juegos multijugador en línea.
+    Paneles de datos que se actualizan en vivo (ej. precios de acciones).
