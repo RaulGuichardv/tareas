@@ -1,0 +1,9 @@
+PARTE 1:
+- paso 1
+    - abre una terminal en este area de trabajo y ejecuta el comando: "python ./webSockets/parte1/server_echo.py" sin las comillas
+
+- paso 2 
+    - abre otar terminal igual en este area de trabajo y ejecuta el comando: "python ./webSockets/parte1/client_echo.py" sin las comillas
+
+- nota importante:
+    - tienes que hacerlo en orden si te sale un error puede ser que tu puerto 8765 (el que se usa en el codigo) lo este usando otro proceso en ese caso tienes que matar el proceso
