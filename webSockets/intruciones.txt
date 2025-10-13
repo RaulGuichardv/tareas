@@ -6,4 +6,24 @@ PARTE 1:
     - abre otar terminal igual en este area de trabajo y ejecuta el comando: "python ./webSockets/parte1/client_echo.py" sin las comillas
 
 - nota importante:
+    - no cierres las terminales que creas para el paso 1
+    - despues que quieras pasar al paso 2 puedes borrar las terminales
     - tienes que hacerlo en orden si te sale un error puede ser que tu puerto 8765 (el que se usa en el codigo) lo este usando otro proceso en ese caso tienes que matar el proceso
+
+
+
+PARTE 2:
+- paso 1
+    - abre una terminal en este area de trabajo y ejecuta el comando: "python ./webSockets/parte2/server_chat.py" sin las comillas 
+
+- paso 2
+    - abre otra terminal igual en este area de trabajo y ejecuta el comando: "python ./webSockets/parte2/client_chat.py" sin las comillas
+
+- paso 3
+    - repite el paso 2 en otra terminal nueva
+
+- nota importante 
+    - no borres las terminales que creas se necesitan las 2 o 3 abiertas para que funcione el codigo
+    - si te manda error tambien puede ser por el puerto que la PARTE 1 lo esta usando 
+    - si te da error por el puerto intenta cerrar las terminales donde hiciste los comandos de la PARTE 1
+    - si te da error aun por el puerto prueba este comando para matar lo que este usando el puerto y vuelve a ejecutar los pasos de la PARTE 2: "sudo lsof -i :8765" sin las comillas 
