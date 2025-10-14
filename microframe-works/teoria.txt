@@ -1,0 +1,9 @@
+Práctica: Creando una Aplicación Simple con Flask y FastAPI
+
+Este documento sirve como una guía práctica y teórica para construir una pequeña aplicación de prueba utilizando dos de los frameworks web más populares de Python: Flask y FastAPI.
+Introducción
+
+Tanto Flask como FastAPI son excelentes opciones para desarrollar APIs y servicios web en Python. Sin embargo, operan bajo principios diferentes y son adecuados para distintos tipos de tareas.
+
+    Flask: Es un microframework WSGI (Web Server Gateway Interface). Es conocido por su simplicidad, flexibilidad y un núcleo minimalista que es fácil de extender. Es una opción sólida para una amplia variedad de aplicaciones web, desde sitios pequeños hasta APIs complejas.
+    FastAPI: Es un framework web moderno y de alto rendimiento basado en ASGI (Asynchronous Server Gateway Interface). Utiliza anotaciones de tipo de Python (type hints) para validar, serializar y deserializar datos, además de generar automáticamente documentación interactiva para tu API.
