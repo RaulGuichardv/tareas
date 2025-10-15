@@ -1,0 +1,36 @@
+Práctica de Docker: Nivel Principiante
+Objetivos de Aprendizaje
+
+    Entender los conceptos básicos de Docker
+    Aprender comandos esenciales de Docker
+    Crear tu primer contenedor
+    Trabajar con imágenes Docker
+    Crear un Dockerfile simple
+
+Parte 1: Primeros Pasos con Docker
+1.1 Verificar la Instalación
+
+# Verificar la versión de Docker
+docker --version
+
+# Verificar que Docker está funcionando correctamente
+docker run hello-world
+
+1.2 Comandos Básicos
+
+Practica estos comandos esenciales:
+
+# Listar imágenes
+docker images
+
+# Listar contenedores en ejecución
+docker ps
+
+# Listar todos los contenedores (incluso los detenidos)
+docker ps -a
+
+# Eliminar un contenedor
+docker rm [ID_CONTENEDOR]
+
+# Eliminar una imagen
+docker rmi [NOMBRE_IMAGEN]
