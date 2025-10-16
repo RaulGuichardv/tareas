@@ -1,0 +1,29 @@
+PARTE 2
+- paso 1
+    - entra a la carpeta ./docker/parte2 
+
+- paso 2
+    - ejecuta el comando "docker build -t mi-primera-web ." sin comillas
+
+- paso 3
+    - ejecuta este otro comando "docker run -d -p 8080:80 mi-primera-web" sin las comillas
+
+- paso 4
+    - ejecuta "docker ps" sin las comillas
+
+- paso 5
+    - Visita http://localhost:8080 en tu navegador para ver tu aplicación.
+
+
+
+PARTE 4
+- paso 1
+    - entra a la carpeta ./docker/parte4
+
+- paso 2
+    - ejecuta "docker compose up -d" sin las comillas
+
+
+
+IMPORNTANTE
+    - entrar a las carpetas correspondintes parte 2 y parte 4 de la carpeta docker para que los comandos funcionen correctamente
