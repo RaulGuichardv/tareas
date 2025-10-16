@@ -1,0 +1,46 @@
+Clase Componentes y Librerías
+2.1 Definición Conceptual de Componentes, Paquetes y Librerías
+¿Qué son los Componentes?
+
+Un componente en programación es una unidad de software reutilizable que encapsula funcionalidad específica y puede ser utilizada de manera independiente o como parte de un sistema más grande.
+
+Características principales:
+
+    Reutilización: Pueden ser utilizados en múltiples contextos
+    Encapsulación: Ocultan su implementación interna
+    Interfaz definida: Proporcionan métodos claros para interactuar con ellos
+    Independencia: Funcionan de manera autónoma
+
+Paquetes vs Librerías vs Módulos
+
+# Módulo: Un archivo .py individual
+# archivo: calculadora.py
+def sumar(a, b):
+    return a + b
+
+def restar(a, b):
+    return a - b
+
+# Paquete: Una carpeta que contiene múltiples módulos
+# estructura de carpetas:
+# matematicas/
+#   ├── __init__.py
+#   ├── aritmetica.py
+#   ├── geometria.py
+#   └── estadistica.py
+
+Diferencias clave:
+Concepto |	Definición 	                     |  Ejemplo
+
+Módulo 	 |  Archivo individual .py           |	math.py, datetime.py
+Paquete  |	Carpeta con módulos relacionados |	numpy, pandas
+Librería |	Conjunto de paquetes y módulos   |	matplotlib (incluye pyplot, patches, etc.)
+
+
+Ventajas de la Modularización
+
+    Mantenibilidad: Código más fácil de mantener y actualizar
+    Reutilización: Evita duplicación de código
+    Colaboración: Equipos pueden trabajar en componentes separados
+    Testing: Pruebas más específicas y efectivas
+    Escalabilidad: Sistemas más fáciles de extender
