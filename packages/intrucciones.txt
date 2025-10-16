@@ -1,0 +1,6 @@
+EJERCICIOS: 
+paso 1
+    - abrir la carpeta en la direccion ./packages/EJERCICIOS
+
+paso 2
+    - ejecutar los archivos de lab1, lab2, .....
